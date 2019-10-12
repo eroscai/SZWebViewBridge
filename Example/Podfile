@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SZWebViewBridge_Example' do
+  pod 'SZWebViewBridge', :path => '../'
+
+  target 'SZWebViewBridge_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
