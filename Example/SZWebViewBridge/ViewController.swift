@@ -10,14 +10,37 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private lazy var wkWebViewEnterBtn: UIButton = createWKWebViewEnterBtn()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        view.backgroundColor = .white
+        view.addSubview(wkWebViewEnterBtn)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @objc func goWKWebViewVC() {
+        let vc = WKWebViewVC()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+
+}
+
+// MARK: - Getter
+
+extension ViewController {
+
+    func createWKWebViewEnterBtn() -> UIButton {
+        let btn = UIButton()
+        btn.frame = CGRect(x: 0, y: 0, width: 200, height: 50);
+        btn.backgroundColor = .black
+        btn.setTitleColor(.white, for: .normal)
+        let screenBounds = UIScreen.main.bounds
+        btn.center = CGPoint(x: screenBounds.width / 2, y: screenBounds.height / 2)
+        btn.setTitle("WKWebView", for: .normal)
+        btn.addTarget(self, action: #selector(goWKWebViewVC), for: .touchUpInside)
+
+        return btn
     }
 
 }

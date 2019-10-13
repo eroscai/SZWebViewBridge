@@ -1,0 +1,28 @@
+{
+  "name": "SZWebViewBridge",
+  "version": "0.1.0",
+  "summary": "A short description of SZWebViewBridge.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/eroscai/SZWebViewBridge",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "eroscai": "csz0102@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/eroscai/SZWebViewBridge.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SZWebViewBridge/Classes/**/*",
+  "resource_bundles": {
+    "SZWebViewBridge": [
+      "SZWebViewBridge/Assets/**/*.js",
+      "SZWebViewBridge/Assets/**/*.jpg"
+    ]
+  }
+}

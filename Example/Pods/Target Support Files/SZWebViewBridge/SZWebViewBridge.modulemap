@@ -1,0 +1,6 @@
+framework module SZWebViewBridge {
+  umbrella header "SZWebViewBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

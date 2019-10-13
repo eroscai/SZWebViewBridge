@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title>Test JSBridge</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width; minimum-scale=1.0; maximum-scale=1.0; user-scalable=no">
+
+    <script type="text/javascript">
+        function alertUsingBridge(title) {
+            window.szBridge.post('alert', {
+                'title': title
+            })
+        }
+
+        function testTitle() {
+            window.szBridge.post('setTitle', {
+                'title': 'This is test title'
+            })
+        }
+
+        function testAlert() {
+            window.szBridge.post('alert', {
+                'title': 'This is alert title',
+                'message': 'This is alert message'
+            })
+        }
+
+        function testPush() {
+            window.szBridge.post('testPush', {})
+        }
+
+        function testReceiveError() {
+            window.szBridge.post('testError', {
+                'key1': 'value1',
+                'key2': {
+                    'subkey1': 'subvalue2'
+                }
+            }, function (result, error) {
+                alertUsingBridge(JSON.stringify(error))
+            })
+        }
+
+        function testReceiveSuccess() {
+            window.szBridge.post('testSuccess', {
+                'key1': 'value1',
+                'key2': {
+                    'subkey1': 'subvalue2'
+                }
+            }, function (result, error) {
+                alertUsingBridge(JSON.stringify(result))
+            })
+        }
+
+        window.szBridge.on('change', function (params) {
+            document.getElementById("change").textContent = "Change Succeed!!!!"
+        })
+    </script>
+
+    <style type="text/css">
+        ul li {
+            padding-top: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <p id="change">
+            <span id="status">Waiting for change.</span></br>
+        </p>
+    </div>
+    <ul>
+        <li><a href="javascript:testTitle()">Title</a></li>
+        <li><a href="javascript:testAlert()">Alert</a></li>
+        <li><a href="javascript:testReceiveError()">Test Receive Error</a></li>
+        <li><a href="javascript:testReceiveSuccess()">Test Receive Success</a></li>
+        <li><a href="javascript:testPush()">Test Push</a></li>
+    </ul>
+</body>
+
+</html>

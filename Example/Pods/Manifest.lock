@@ -1,0 +1,16 @@
+PODS:
+  - SZWebViewBridge (0.1.0)
+
+DEPENDENCIES:
+  - SZWebViewBridge (from `../`)
+
+EXTERNAL SOURCES:
+  SZWebViewBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SZWebViewBridge: 0d0c903a6cb15104d927009a533df00192ab8e74
+
+PODFILE CHECKSUM: 0ad857ee527b2e1c14968db7cc7f47efdd008d4c
+
+COCOAPODS: 1.7.5
