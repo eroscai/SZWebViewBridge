@@ -64,6 +64,11 @@ public class SZWebViewBridge: NSObject {
         webViewBridgeInvoker.addHandlers(handlers: handlers)
     }
 
+    /// Remove bridge handler.
+    public func removeHandlers(handlerActions: Array<String>) {
+        webViewBridgeInvoker.removeHandlers(handlerActions: handlerActions)
+    }
+
     /// Post message to web client.
     /// - Parameter action: The action name.
     /// - Parameter params: The params.

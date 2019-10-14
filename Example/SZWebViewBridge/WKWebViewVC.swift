@@ -19,7 +19,7 @@ class WKWebViewVC: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .white
-        let rightItem = UIBarButtonItem(title: "Change", style: .plain, target: self, action: #selector(handleRightItemClick))
+        let rightItem = UIBarButtonItem(title: "Edit", style: .plain, target: self, action: #selector(handleRightItemClick))
         navigationItem.rightBarButtonItem = rightItem
 
         view.addSubview(webView)
@@ -40,8 +40,38 @@ class WKWebViewVC: UIViewController {
 
     }
 
+}
+
+// MARK: - Actions
+
+extension WKWebViewVC {
+
     @objc func handleRightItemClick() {
-        webViewBridge.post(action: "change", params: nil)
+        let alertVC = UIAlertController(title: "Choose Action", message: nil, preferredStyle: .actionSheet)
+        let changeAtion = UIAlertAction(title: "Change", style: .default) { [weak self] (action) in
+            self?.webViewBridge.post(action: "change", params: nil)
+        }
+        let removeAllAtion = UIAlertAction(title: "Remove All", style: .default) { [weak self] (action) in
+            let actions: [String] = ["setTitle" , "alert", "testError", "testSuccess", "testPush"]
+            self?.webViewBridge.removeHandlers(handlerActions: actions)
+        }
+        let addAllAtion = UIAlertAction(title: "Add All", style: .default) { [weak self] (action) in
+            let actions: SZWebViewBridgeBaseHandlerObject = [
+                "setTitle": TitleHandler.self,
+                "alert": AlertHandler.self,
+                "testError": TestReceiveErrorHandler.self,
+                "testSuccess": TestReceiveSuccessHandler.self,
+                "testPush": TestPushHandler.self,
+            ]
+            self?.webViewBridge.addHandlers(handlers: actions)
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        alertVC.addAction(changeAtion)
+        alertVC.addAction(removeAllAtion)
+        alertVC.addAction(addAllAtion)
+        alertVC.addAction(cancelAction)
+
+        present(alertVC, animated: true, completion: nil)
     }
 
 }

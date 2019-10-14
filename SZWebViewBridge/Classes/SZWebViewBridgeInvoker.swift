@@ -10,8 +10,12 @@ import UIKit
 struct SZWebViewBridgeHandlers {
 
     private var handlers: SZWebViewBridgeBaseHandlerObject = [:]
+    private let normalLock = NSLock()
 
     func handlerForAction(action: String) -> SZWebViewBridgeBaseHandler? {
+        normalLock.lock()
+        defer { normalLock.unlock() }
+
         guard action.count > 0 else {
             print("js bridge action name is empty")
             return nil
@@ -27,6 +31,9 @@ struct SZWebViewBridgeHandlers {
     }
 
     public func isContainsAction(action: String) -> Bool {
+        normalLock.lock()
+        defer { normalLock.unlock() }
+
         guard handlers[action] != nil else {
             return false
         }
@@ -35,7 +42,19 @@ struct SZWebViewBridgeHandlers {
     }
 
     mutating func addHandlers(handlers: SZWebViewBridgeBaseHandlerObject) {
+        normalLock.lock()
+        defer { normalLock.unlock() }
+
         self.handlers.merge(handlers) { $1 }
+    }
+
+    mutating func removeHandlers(handlerActions: Array<String>) {
+        normalLock.lock()
+        defer { normalLock.unlock() }
+
+        for action in handlerActions {
+            self.handlers.removeValue(forKey: action)
+        }
     }
 
 }
@@ -51,7 +70,11 @@ class SZWebViewBridgeInvoker: NSObject {
     }
 
     func addHandlers(handlers: SZWebViewBridgeBaseHandlerObject) {
-        allHandlers.addHandlers(handlers: handlers);
+        allHandlers.addHandlers(handlers: handlers)
+    }
+
+    func removeHandlers(handlerActions: Array<String>) {
+        allHandlers.removeHandlers(handlerActions: handlerActions)
     }
 
     func invoke(viewController: UIViewController?,

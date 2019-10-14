@@ -32,7 +32,7 @@ extension ViewController {
 
     func createWKWebViewEnterBtn() -> UIButton {
         let btn = UIButton()
-        btn.frame = CGRect(x: 0, y: 0, width: 200, height: 50);
+        btn.frame = CGRect(x: 0, y: 0, width: 200, height: 50)
         btn.backgroundColor = .black
         btn.setTitleColor(.white, for: .normal)
         let screenBounds = UIScreen.main.bounds
