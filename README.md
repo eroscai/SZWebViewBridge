@@ -44,7 +44,26 @@ var handlers: SZWebViewBridgeBaseHandlerObject {
 webViewBridge.addHandlers(handlers: handlers)
 ```
 
-3. All Done! You can add or remove handler using with function `addHandlers` and `removeHandlers`. More detail usage please check example project.
+3. All Done! You can add or remove handler with function `addHandlers` and `removeHandlers`. More detail usage please check example project. Below is `TitleHandler` example code.
+
+```swift
+import UIKit
+import SZWebViewBridge
+
+class TitleHandler: SZWebViewBridgeBaseHandler {
+
+    override func invoke() throws {
+        guard let params = params else { return }
+
+        if let title = params["title"] as? String {
+            if let viewController = viewController {
+                viewController.title = title
+            }
+        }
+    }
+
+}
+```
 
 ## Example
 
