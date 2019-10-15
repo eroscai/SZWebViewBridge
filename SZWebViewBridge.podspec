@@ -7,23 +7,27 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'SZWebViewBridge'
-    s.version          = '1.0.0'
-    s.summary          = 'SZWebViewBridge is a lightweight, pure-Swift library for bridge sending messages between WKWebView and Web client. Based on message handler.'
+    s.name              = 'SZWebViewBridge'
+    s.version           = '1.0.1'
+    s.summary           = 'Swift WKWebView bridge. Based on message handler.'
+    s.description       = <<-DESC
+                        SZWebViewBridge is a lightweight, pure-Swift library for bridge sending messages between WKWebView and Web client. Based on message handler.
+                        DESC
 
-    s.homepage         = 'https://github.com/eroscai/SZWebViewBridge'
-    s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'eroscai' => 'csz0102@gmail.com' }
-    s.source           = { :git => 'https://github.com/eroscai/SZWebViewBridge.git', :tag => s.version.to_s }
+    s.homepage          = 'https://github.com/eroscai/SZWebViewBridge'
+    s.license           = { :type => 'MIT', :file => 'LICENSE' }
+    s.author            = { 'eroscai' => 'csz0102@gmail.com' }
+    s.source            = { :git => 'https://github.com/eroscai/SZWebViewBridge.git', :tag => s.version.to_s }
 
+    s.platform              = :ios
     s.ios.deployment_target = '10.0'
-    s.swift_version = "5.0"
+    s.swift_version         = "5.0"
 
-    s.source_files = 'SZWebViewBridge/Classes/**/*'
+    s.source_files      = 'SZWebViewBridge/Classes/**/*'
 
-    s.resource_bundles = {
+    s.resource_bundles  = {
         'SZWebViewBridge' => ['SZWebViewBridge/Assets/**/*.js', 'SZWebViewBridge/Assets/**/*.jpg']
     }
 
-    s.frameworks = 'UIKit', 'WebKit'
+    s.frameworks        = 'UIKit', 'WebKit'
 end
