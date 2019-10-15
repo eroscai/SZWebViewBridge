@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AEB652942B05E37BCD61E67ABEB7CBB /* SZWebViewBridgeBaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34969FEE798EDFB83EF4FF5616E88775 /* SZWebViewBridgeBaseHandler.swift */; };
 		19F18B1D1991A2E1B3EC039198B7DEA2 /* Pods-SZWebViewBridge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA82164FC20A6B9AE66F5651C6E858D /* Pods-SZWebViewBridge_Example-dummy.m */; };
 		2F10288EA40E909EC986A886E640BCD9 /* Pods-SZWebViewBridge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A05C92078C912C5A6A784BFACCCB8B /* Pods-SZWebViewBridge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		316B6A453A603923B29D32BC09B3390B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67DA81A75DBAA54230BA78A263FE61E /* UIKit.framework */; };
 		353F84690A2F4D4C89D4F46D7590E600 /* Pods-SZWebViewBridge_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF00354DD126EFFD580E5319EA30CDD /* Pods-SZWebViewBridge_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44965F1A83D10F065AC74BBC5B9F6C8D /* SZWebViewBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E349BA86F8385D2EBED43841B4F58C7 /* SZWebViewBridge.swift */; };
-		46AFC14A4B30EEDCA80D5B38A61281C5 /* SZWebViewBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1D2E079BA2B3AD82D9DC37796D5489 /* SZWebViewBridge-dummy.m */; };
-		4B447A83882BD7C8855E480CBAA7871D /* SZWebViewBridgeInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C337C83911F7482E9FF6BA7BA74E12 /* SZWebViewBridgeInvoker.swift */; };
-		4F03D6E4A35DDA113C5E1F3C1D9A2EFF /* SZWebViewBridge.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6EAA383FCD87E694A019E3A586ADCE0 /* SZWebViewBridge.bundle */; };
-		57C2D32B81FEE78664F305329B8EBDD7 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1BD92CD1DAC6954EFCDD06CB1AEF345 /* 111.jpg */; };
-		6AEC514B435AC178611F8CEFE96E09BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6F53D91E84A1C8E88F937259C5D374BA /* sz_bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = AF2C4205B77F780C09B1F3DE0E522F88 /* sz_bridge.js */; };
-		ABEB3EAB451E9A5030CAEB5784242D4D /* SZWebViewBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 650F22544D98FE3CDF1BD787A688872C /* SZWebViewBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39BCB3DC89111E11878E0C647F31B93E /* SZWebViewBridgeBaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34969FEE798EDFB83EF4FF5616E88775 /* SZWebViewBridgeBaseHandler.swift */; };
+		3A0DF899F693B0BF234843525DBF82C7 /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1BD92CD1DAC6954EFCDD06CB1AEF345 /* 111.jpg */; };
+		4664C6250D3A26DC8BB862B16850AF92 /* SZWebViewBridge.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6EAA383FCD87E694A019E3A586ADCE0 /* SZWebViewBridge.bundle */; };
+		5CF5E3009D8153C87DAB9962A20BEAFF /* SZWebViewBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1D2E079BA2B3AD82D9DC37796D5489 /* SZWebViewBridge-dummy.m */; };
+		6C55219C6207C7F1FEE6E29B4284DCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */; };
+		A4D10CEBD528410340FE636ADED5573D /* sz_bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = AF2C4205B77F780C09B1F3DE0E522F88 /* sz_bridge.js */; };
 		AF06BD16F2A8DD3278510D79B17727F7 /* Pods-SZWebViewBridge_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D777A4B5B2773046BE6224BFAB21A7DC /* Pods-SZWebViewBridge_Tests-dummy.m */; };
-		B1B53E2D012186FBA124EA7E3E70227F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BB12BBF8F54F84B3DB488A5ADC8E0666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B1B53E2D012186FBA124EA7E3E70227F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */; };
+		BB0BA903DB223798424D96377196E1C0 /* SZWebViewBridgeInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C337C83911F7482E9FF6BA7BA74E12 /* SZWebViewBridgeInvoker.swift */; };
+		BB12BBF8F54F84B3DB488A5ADC8E0666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */; };
+		BF688ECA45490E791D79E8FA596A6619 /* SZWebViewBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E349BA86F8385D2EBED43841B4F58C7 /* SZWebViewBridge.swift */; };
+		DE1998F72846CB17F4A817597EC63E2C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70623E6A43818E22A923D7E082A105E3 /* WebKit.framework */; };
+		E3D700F04A8F832EE30BE843A722AC67 /* SZWebViewBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 650F22544D98FE3CDF1BD787A688872C /* SZWebViewBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,19 +34,19 @@
 			remoteGlobalIDString = 5ACD29C9898E01F1FCB4C4AAEDC3109D;
 			remoteInfo = SZWebViewBridge;
 		};
-		A45F43133CEC08BDB26309BDB187E224 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 402C3500C79AE223AC15315ED037ADFB;
-			remoteInfo = "SZWebViewBridge-SZWebViewBridge";
-		};
 		A9DF027B34397AA0272B6DD9365F6732 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 941C809A27B75A15D2A8F5528E860D78;
 			remoteInfo = "Pods-SZWebViewBridge_Example";
+		};
+		D9843C82383C9A9112166820459B1897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 402C3500C79AE223AC15315ED037ADFB;
+			remoteInfo = "SZWebViewBridge-SZWebViewBridge";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,7 +58,6 @@
 		18B031935FC854A5C96C39D030DB5DB3 /* SZWebViewBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SZWebViewBridge.framework; path = SZWebViewBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FC4FBEDDC774452C894CCCCCA0FA90 /* Pods-SZWebViewBridge_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SZWebViewBridge_Example-Info.plist"; sourceTree = "<group>"; };
 		260674E063CD94D56E4D14177EE3FBC5 /* Pods_SZWebViewBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SZWebViewBridge_Example.framework; path = "Pods-SZWebViewBridge_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34969FEE798EDFB83EF4FF5616E88775 /* SZWebViewBridgeBaseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SZWebViewBridgeBaseHandler.swift; path = SZWebViewBridge/Classes/SZWebViewBridgeBaseHandler.swift; sourceTree = "<group>"; };
 		36860023912FAA59F493CD2C62777A8A /* Pods-SZWebViewBridge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SZWebViewBridge_Example.modulemap"; sourceTree = "<group>"; };
 		3FF00354DD126EFFD580E5319EA30CDD /* Pods-SZWebViewBridge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SZWebViewBridge_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		6212E391FF017C563FF55E164CF7FDE9 /* SZWebViewBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SZWebViewBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		650F22544D98FE3CDF1BD787A688872C /* SZWebViewBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZWebViewBridge-umbrella.h"; sourceTree = "<group>"; };
 		705BA17AE2E341749854D869F75E827F /* Pods-SZWebViewBridge_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SZWebViewBridge_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		70623E6A43818E22A923D7E082A105E3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		8656F66F2B5374F61836C1D2A496C602 /* SZWebViewBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZWebViewBridge-prefix.pch"; sourceTree = "<group>"; };
 		87C337C83911F7482E9FF6BA7BA74E12 /* SZWebViewBridgeInvoker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SZWebViewBridgeInvoker.swift; path = SZWebViewBridge/Classes/SZWebViewBridgeInvoker.swift; sourceTree = "<group>"; };
 		8E349BA86F8385D2EBED43841B4F58C7 /* SZWebViewBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SZWebViewBridge.swift; path = SZWebViewBridge/Classes/SZWebViewBridge.swift; sourceTree = "<group>"; };
@@ -81,8 +83,10 @@
 		D1E10A022D1A554F7492033020EFBCB5 /* Pods-SZWebViewBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZWebViewBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D26F317EAC3684D222E5D7140A8E94C0 /* Pods-SZWebViewBridge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SZWebViewBridge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5B99AE46CC92931EEB1FA34A61A1FAB /* Pods_SZWebViewBridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SZWebViewBridge_Tests.framework; path = "Pods-SZWebViewBridge_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67DA81A75DBAA54230BA78A263FE61E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D777A4B5B2773046BE6224BFAB21A7DC /* Pods-SZWebViewBridge_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SZWebViewBridge_Tests-dummy.m"; sourceTree = "<group>"; };
 		DA01745DEEB5559ED6266D124EB266AD /* SZWebViewBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SZWebViewBridge.xcconfig; sourceTree = "<group>"; };
+		DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E6EAA383FCD87E694A019E3A586ADCE0 /* SZWebViewBridge.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SZWebViewBridge.bundle; path = "SZWebViewBridge-SZWebViewBridge.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB43F562ACCC78CF7804F8C15D45B734 /* ResourceBundle-SZWebViewBridge-SZWebViewBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SZWebViewBridge-SZWebViewBridge-Info.plist"; sourceTree = "<group>"; };
 		F1BD92CD1DAC6954EFCDD06CB1AEF345 /* 111.jpg */ = {isa = PBXFileReference; includeInIndex = 1; path = 111.jpg; sourceTree = "<group>"; };
@@ -90,10 +94,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4923F03652531A04AB7502957478F8FC /* Frameworks */ = {
+		0729715FD22783F0DFB4D6C1C07C826D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C55219C6207C7F1FEE6E29B4284DCC7 /* Foundation.framework in Frameworks */,
+				316B6A453A603923B29D32BC09B3390B /* UIKit.framework in Frameworks */,
+				DE1998F72846CB17F4A817597EC63E2C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,11 +112,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA4E45C1EEF46C5C2C6AB983F1A4D1B5 /* Frameworks */ = {
+		7CF19C7BB895C2B3B052881A75C45434 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AEC514B435AC178611F8CEFE96E09BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +130,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01E51FDDCE74CEFD3C6FB4939A0E62F1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDDDA8BD51DCE9A9E42657A740BA538A /* Foundation.framework */,
+				D67DA81A75DBAA54230BA78A263FE61E /* UIKit.framework */,
+				70623E6A43818E22A923D7E082A105E3 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01E51FDDCE74CEFD3C6FB4939A0E62F1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1ADF7E23EC0D9C3B3B7C5A45E5A7AECA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,31 +250,15 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				A24923CDA9F94A3890B201BE572555D5 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				1ADF7E23EC0D9C3B3B7C5A45E5A7AECA /* Products */,
 				F1D3E56B4AFE085F4F89AB38620AC9F2 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		F1D3E56B4AFE085F4F89AB38620AC9F2 /* Targets Support Files */ = {
@@ -281,19 +289,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1302ED0A1C7F663510E1329DA922BCE2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABEB3EAB451E9A5030CAEB5784242D4D /* SZWebViewBridge-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		169549D86489C55D7840971FED207B8D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				353F84690A2F4D4C89D4F46D7590E600 /* Pods-SZWebViewBridge_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC96751E9EAF85C4D8755206199E417 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D700F04A8F832EE30BE843A722AC67 /* SZWebViewBridge-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,11 +318,11 @@
 /* Begin PBXNativeTarget section */
 		402C3500C79AE223AC15315ED037ADFB /* SZWebViewBridge-SZWebViewBridge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32AE93782A66A87D5B27BC41ACFC7285 /* Build configuration list for PBXNativeTarget "SZWebViewBridge-SZWebViewBridge" */;
+			buildConfigurationList = 8489E0ECA63FFAB0D2D75BB5A6EA7123 /* Build configuration list for PBXNativeTarget "SZWebViewBridge-SZWebViewBridge" */;
 			buildPhases = (
-				3421625D5DF236F77BD6A7065224C74B /* Sources */,
-				4923F03652531A04AB7502957478F8FC /* Frameworks */,
-				B8CEA7C93F089BAD54292C9CB129FF95 /* Resources */,
+				12D3EB66C0BECDD1DFBACB8649C28A6C /* Sources */,
+				7CF19C7BB895C2B3B052881A75C45434 /* Frameworks */,
+				A36F7D03E9366CE8E3EB3EBB922DECDD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -327,17 +335,17 @@
 		};
 		5ACD29C9898E01F1FCB4C4AAEDC3109D /* SZWebViewBridge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F8615E2B0B0D8E4AA307F0A6422D1F5 /* Build configuration list for PBXNativeTarget "SZWebViewBridge" */;
+			buildConfigurationList = E5271D46C7B455F65C3F718B718AE2B3 /* Build configuration list for PBXNativeTarget "SZWebViewBridge" */;
 			buildPhases = (
-				1302ED0A1C7F663510E1329DA922BCE2 /* Headers */,
-				C483109B7B46216E8DAF39E6C3288B9E /* Sources */,
-				AA4E45C1EEF46C5C2C6AB983F1A4D1B5 /* Frameworks */,
-				59167507CA0D0ADAABAE95E5C0D8AB93 /* Resources */,
+				DEC96751E9EAF85C4D8755206199E417 /* Headers */,
+				D316C772A236C86F853468C67A37F104 /* Sources */,
+				0729715FD22783F0DFB4D6C1C07C826D /* Frameworks */,
+				06AD2C526B2DB1C1F2E9141BE7E0D8A6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B70F052B96D7EC8E7AE26BFFCB09C642 /* PBXTargetDependency */,
+				29FBE20585FB70397A8605B0E71E39C9 /* PBXTargetDependency */,
 			);
 			name = SZWebViewBridge;
 			productName = SZWebViewBridge;
@@ -419,20 +427,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59167507CA0D0ADAABAE95E5C0D8AB93 /* Resources */ = {
+		06AD2C526B2DB1C1F2E9141BE7E0D8A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F03D6E4A35DDA113C5E1F3C1D9A2EFF /* SZWebViewBridge.bundle in Resources */,
+				4664C6250D3A26DC8BB862B16850AF92 /* SZWebViewBridge.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8CEA7C93F089BAD54292C9CB129FF95 /* Resources */ = {
+		A36F7D03E9366CE8E3EB3EBB922DECDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C2D32B81FEE78664F305329B8EBDD7 /* 111.jpg in Resources */,
-				6F53D91E84A1C8E88F937259C5D374BA /* sz_bridge.js in Resources */,
+				3A0DF899F693B0BF234843525DBF82C7 /* 111.jpg in Resources */,
+				A4D10CEBD528410340FE636ADED5573D /* sz_bridge.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +454,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3421625D5DF236F77BD6A7065224C74B /* Sources */ = {
+		12D3EB66C0BECDD1DFBACB8649C28A6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -469,20 +477,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C483109B7B46216E8DAF39E6C3288B9E /* Sources */ = {
+		D316C772A236C86F853468C67A37F104 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46AFC14A4B30EEDCA80D5B38A61281C5 /* SZWebViewBridge-dummy.m in Sources */,
-				44965F1A83D10F065AC74BBC5B9F6C8D /* SZWebViewBridge.swift in Sources */,
-				0AEB652942B05E37BCD61E67ABEB7CBB /* SZWebViewBridgeBaseHandler.swift in Sources */,
-				4B447A83882BD7C8855E480CBAA7871D /* SZWebViewBridgeInvoker.swift in Sources */,
+				5CF5E3009D8153C87DAB9962A20BEAFF /* SZWebViewBridge-dummy.m in Sources */,
+				BF688ECA45490E791D79E8FA596A6619 /* SZWebViewBridge.swift in Sources */,
+				39BCB3DC89111E11878E0C647F31B93E /* SZWebViewBridgeBaseHandler.swift in Sources */,
+				BB0BA903DB223798424D96377196E1C0 /* SZWebViewBridgeInvoker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		29FBE20585FB70397A8605B0E71E39C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SZWebViewBridge-SZWebViewBridge";
+			target = 402C3500C79AE223AC15315ED037ADFB /* SZWebViewBridge-SZWebViewBridge */;
+			targetProxy = D9843C82383C9A9112166820459B1897 /* PBXContainerItemProxy */;
+		};
 		2E17A535C040AB8462D5B7DFAD7DC8E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SZWebViewBridge;
@@ -495,289 +509,10 @@
 			target = 941C809A27B75A15D2A8F5528E860D78 /* Pods-SZWebViewBridge_Example */;
 			targetProxy = A9DF027B34397AA0272B6DD9365F6732 /* PBXContainerItemProxy */;
 		};
-		B70F052B96D7EC8E7AE26BFFCB09C642 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SZWebViewBridge-SZWebViewBridge";
-			target = 402C3500C79AE223AC15315ED037ADFB /* SZWebViewBridge-SZWebViewBridge */;
-			targetProxy = A45F43133CEC08BDB26309BDB187E224 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3C96608461D41059499DC45DC61AF330 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA01745DEEB5559ED6266D124EB266AD /* SZWebViewBridge.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SZWebViewBridge/SZWebViewBridge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SZWebViewBridge/SZWebViewBridge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SZWebViewBridge/SZWebViewBridge.modulemap";
-				PRODUCT_MODULE_NAME = SZWebViewBridge;
-				PRODUCT_NAME = SZWebViewBridge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4467CE3114F2CF4E79FEBED2B2B7A0EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA01745DEEB5559ED6266D124EB266AD /* SZWebViewBridge.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SZWebViewBridge";
-				INFOPLIST_FILE = "Target Support Files/SZWebViewBridge/ResourceBundle-SZWebViewBridge-SZWebViewBridge-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SZWebViewBridge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		4C0B02B4CA56EE9EA4C8ADAED67FC52F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FF3C11C2AE03563DD09803266B9E15B /* Pods-SZWebViewBridge_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SZWebViewBridge_Tests/Pods-SZWebViewBridge_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SZWebViewBridge_Tests/Pods-SZWebViewBridge_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		582AE27B74E72F808F78A28BF80D199A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA547336E28EB1EBD934F5A3B76B42F9 /* Pods-SZWebViewBridge_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SZWebViewBridge_Example/Pods-SZWebViewBridge_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SZWebViewBridge_Example/Pods-SZWebViewBridge_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A27691AFC16BA0EBBD2C71A15039DEDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F895F0B9F1C3A76D89BE7C616FC8E4B /* Pods-SZWebViewBridge_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SZWebViewBridge_Tests/Pods-SZWebViewBridge_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SZWebViewBridge_Tests/Pods-SZWebViewBridge_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A2AA5D849527AF058BBD2D60B6D555C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1E10A022D1A554F7492033020EFBCB5 /* Pods-SZWebViewBridge_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SZWebViewBridge_Example/Pods-SZWebViewBridge_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SZWebViewBridge_Example/Pods-SZWebViewBridge_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A5C834DEAE676494640B4C6D5CF317AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA01745DEEB5559ED6266D124EB266AD /* SZWebViewBridge.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SZWebViewBridge/SZWebViewBridge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SZWebViewBridge/SZWebViewBridge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SZWebViewBridge/SZWebViewBridge.modulemap";
-				PRODUCT_MODULE_NAME = SZWebViewBridge;
-				PRODUCT_NAME = SZWebViewBridge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -828,7 +563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -841,14 +576,135 @@
 			};
 			name = Debug;
 		};
-		FBA1A16E237A90685EF87F3A1E0BA0CC /* Debug */ = {
+		416A4127DAF105E95AE93B31626C1E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA547336E28EB1EBD934F5A3B76B42F9 /* Pods-SZWebViewBridge_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SZWebViewBridge_Example/Pods-SZWebViewBridge_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SZWebViewBridge_Example/Pods-SZWebViewBridge_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53670887FEB4445470F6550314C2B359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F895F0B9F1C3A76D89BE7C616FC8E4B /* Pods-SZWebViewBridge_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SZWebViewBridge_Tests/Pods-SZWebViewBridge_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SZWebViewBridge_Tests/Pods-SZWebViewBridge_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D4E560AF59294605F8108ED2D22B866 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA01745DEEB5559ED6266D124EB266AD /* SZWebViewBridge.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SZWebViewBridge";
+				IBSC_MODULE = SZWebViewBridge;
 				INFOPLIST_FILE = "Target Support Files/SZWebViewBridge/ResourceBundle-SZWebViewBridge-SZWebViewBridge-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SZWebViewBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6C1F7F0DE5E2EBFA8222E36C6EF5D294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF3C11C2AE03563DD09803266B9E15B /* Pods-SZWebViewBridge_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SZWebViewBridge_Tests/Pods-SZWebViewBridge_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SZWebViewBridge_Tests/Pods-SZWebViewBridge_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8583567D6030011FAB55A7DAC107B4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA01745DEEB5559ED6266D124EB266AD /* SZWebViewBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SZWebViewBridge";
+				IBSC_MODULE = SZWebViewBridge;
+				INFOPLIST_FILE = "Target Support Files/SZWebViewBridge/ResourceBundle-SZWebViewBridge-SZWebViewBridge-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = SZWebViewBridge;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -857,23 +713,174 @@
 			};
 			name = Debug;
 		};
+		8600C19DF1B6FEF26A8979F0FFEB0327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E10A022D1A554F7492033020EFBCB5 /* Pods-SZWebViewBridge_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SZWebViewBridge_Example/Pods-SZWebViewBridge_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SZWebViewBridge_Example/Pods-SZWebViewBridge_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BCB40040DF0457ABC5BFEDAD20AD9D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA01745DEEB5559ED6266D124EB266AD /* SZWebViewBridge.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SZWebViewBridge/SZWebViewBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SZWebViewBridge/SZWebViewBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SZWebViewBridge/SZWebViewBridge.modulemap";
+				PRODUCT_MODULE_NAME = SZWebViewBridge;
+				PRODUCT_NAME = SZWebViewBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3B2962FC6A7DF6208DF3E2C402BF143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA01745DEEB5559ED6266D124EB266AD /* SZWebViewBridge.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SZWebViewBridge/SZWebViewBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SZWebViewBridge/SZWebViewBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SZWebViewBridge/SZWebViewBridge.modulemap";
+				PRODUCT_MODULE_NAME = SZWebViewBridge;
+				PRODUCT_NAME = SZWebViewBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32AE93782A66A87D5B27BC41ACFC7285 /* Build configuration list for PBXNativeTarget "SZWebViewBridge-SZWebViewBridge" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FBA1A16E237A90685EF87F3A1E0BA0CC /* Debug */,
-				4467CE3114F2CF4E79FEBED2B2B7A0EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		39A162951E88E6E86FAF1081E5DD179E /* Build configuration list for PBXNativeTarget "Pods-SZWebViewBridge_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A27691AFC16BA0EBBD2C71A15039DEDC /* Debug */,
-				4C0B02B4CA56EE9EA4C8ADAED67FC52F /* Release */,
+				53670887FEB4445470F6550314C2B359 /* Debug */,
+				6C1F7F0DE5E2EBFA8222E36C6EF5D294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -881,17 +888,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F8615E2B0B0D8E4AA307F0A6422D1F5 /* Build configuration list for PBXNativeTarget "SZWebViewBridge" */ = {
+		8489E0ECA63FFAB0D2D75BB5A6EA7123 /* Build configuration list for PBXNativeTarget "SZWebViewBridge-SZWebViewBridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C96608461D41059499DC45DC61AF330 /* Debug */,
-				A5C834DEAE676494640B4C6D5CF317AC /* Release */,
+				8583567D6030011FAB55A7DAC107B4EF /* Debug */,
+				5D4E560AF59294605F8108ED2D22B866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -899,8 +906,17 @@
 		A2A301B14B79B8953E846C2E7E1A207D /* Build configuration list for PBXNativeTarget "Pods-SZWebViewBridge_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				582AE27B74E72F808F78A28BF80D199A /* Debug */,
-				A2AA5D849527AF058BBD2D60B6D555C3 /* Release */,
+				416A4127DAF105E95AE93B31626C1E83 /* Debug */,
+				8600C19DF1B6FEF26A8979F0FFEB0327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5271D46C7B455F65C3F718B718AE2B3 /* Build configuration list for PBXNativeTarget "SZWebViewBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B2962FC6A7DF6208DF3E2C402BF143 /* Debug */,
+				BCB40040DF0457ABC5BFEDAD20AD9D8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
