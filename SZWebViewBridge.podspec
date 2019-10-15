@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name              = 'SZWebViewBridge'
-    s.version           = '1.0.1'
+    s.version           = '1.0.2'
     s.summary           = 'Swift WKWebView bridge. Based on message handler.'
     s.description       = <<-DESC
                         SZWebViewBridge is a lightweight, pure-Swift library for bridge sending messages between WKWebView and Web client. Based on message handler.
