@@ -93,7 +93,7 @@ class TestReceiveSuccessHandler: SZWebViewBridgeBaseHandler {
 }
 ```
 
-3. Because all handlers must perform the same protocol, it can be easily get parameters and various variables needed.
+3. Because all handlers must adopt the same protocol, it can be easily get parameters and various variables needed.
 4. Each handler is a separate class/file that can be easily added and removed.
 
 ## Usage
